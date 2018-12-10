@@ -33,7 +33,8 @@ var radius;
 var paused = false;
 
 window.onload = function () {
-  var ratio = window.devicePixelRatio || 1;
+  // var ratio = window.devicePixelRatio || 1;
+  var ratio = 1;
   var help = document.getElementById('help');
 
   function onresize() {
